@@ -8,8 +8,6 @@ PRGM_TITLE =   "Ranked-Play MMR Algorithm plus TestBench designed for Call of Du
 ## Begin Customization Block ##
 ###############################
 
-TEAM_AVG_WEIGHT  =   5  # Weight value for performance relative to teammates 
-OPNT_AVG_WEIGHT  =   3  # Weight value for performance relative to opponents
 MMR_DEF_INCREASE =  26  # Default MMR increase for winning
 MMR_DEF_DECREASE = -24  # Default MMR decrease for losing
 MMR_MAX_INCREASE =  60  # Maximum MMR increase for winning
@@ -17,6 +15,9 @@ MMR_MAX_DECREASE = -40  # Maximum MMR decrease for losing
 MMR_MIN_INCREASE =  15  # Minimum MMR increase for winning
 MMR_MIN_DECREASE =  -5  # Minimum MMR decrease for losing
 MMR_QUIT_PENALTY = -75  # Static MMR penalty for quitting
+
+TEAM_AVG_WEIGHT  =   5  # Weight value for performance relative to teammates 
+OPNT_AVG_WEIGHT  =   3  # Weight value for performance relative to opponents
 
 SCORE_GAIN = 2.2  # Gain value for score (increase slightly if players are not being awarded enough for score)
 KILL_GAIN  = 2.9  # Gain value for kills (increase slightly if players are not being awarded enough for kills)
