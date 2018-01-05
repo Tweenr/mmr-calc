@@ -32,15 +32,16 @@ OBJ_GAIN   = 0.9  # Gain value for objec (increase slightly if players are not b
 SCORE = [6, 0]
 # [TEAM_1_SCORE, TEAM_2_SCORE]
 
-STAT_MATRIX = [[[1647, 320, 850, 7, 1],
-                [1784, 320, 680, 6, 0],
-                [1472, 320, 625, 6, 0],
-                [1817, 320, 605, 5, 0]],  # Team 1
+#----------------MMR---TIM--SCO--KIL--OBJ
+STAT_MATRIX = [[[1647, 320, 850, 7,   1],
+                [1784, 320, 680, 6,   0],
+                [1472, 320, 625, 6,   0],
+                [1817, 320, 605, 5,   0]],  # Team 1
 #             ------------------------------
-               [[1604, 320, 300, 3, 0],
-                [1666, 320, 140, 1, 0],
-                [1611, 320, 140, 1, 0], 
-                [1888, 320, 140, 1, 0]]]  # Team 2
+               [[1604, 320, 300, 3,   0],
+                [1666, 320, 140, 1,   0],
+                [1611, 320, 140, 1,   0], 
+                [1888, 320, 140, 1,   0]]]  # Team 2
 
 # Columns are: MMR, Time Played, Score, Kills, Objective
 ### Time Played is in seconds
